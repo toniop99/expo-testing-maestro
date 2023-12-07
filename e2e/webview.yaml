@@ -1,5 +1,6 @@
 appId: com.andezdev.test.maestro
-
+tags:
+    - webview
 ---
 - launchApp:
     appId: com.andezdev.test.maestro

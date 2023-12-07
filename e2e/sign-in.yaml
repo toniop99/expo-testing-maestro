@@ -1,4 +1,6 @@
 appId: com.andezdev.test.maestro
+tags:
+  - sign-in
 env:
     USERNAME: "Test User"
     PASSWORD: Test123456
