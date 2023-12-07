@@ -9,6 +9,10 @@
 >
 > `maestro test -c flow.yaml`
 
+> ℹ️ Record tests
+>
+> `maestro record -c flow.yaml`
+
 ### Linux/Mac
 - Start emulator
 - Install build located in root directory on emulator
