@@ -1,0 +1,23 @@
+appId: com.andezdev.test.maestro
+
+---
+
+# needed to open app in expo
+#- openLink: exp://192.168.18.19:8081
+- runFlow:
+    when:
+      visible:
+        text: "http.*"
+    commands:
+      - tapOn: "http.*"
+- runFlow:
+    when:
+      visible: "Continue"
+    commands:
+      - tapOn: "Continue"
+- runFlow:
+    when:
+      visible: "Toggle performance monitor"
+    commands:
+      - tapOn:
+          point: 50%,10%
