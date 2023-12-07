@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "com.andezdev.test.maestro",
     "name": "expo-maestro",
     "slug": "expo-maestro",
     "version": "1.0.0",
@@ -37,6 +38,9 @@
     },
     "updates": {
       "url": "https://u.expo.dev/994578ed-341f-41f3-9a83-f0a72f304524"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
