@@ -2,6 +2,9 @@ import {Pressable, StyleSheet, Text, TextInput, TouchableOpacity, View} from 're
 import {useState} from "react";
 import {Link} from "expo-router";
 
+if(__DEV__) {
+    import("../ReactotronConfig")
+}
 export default function Page() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
