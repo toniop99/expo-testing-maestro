@@ -28,6 +28,11 @@
   - `adb devices` # should show active emulator on local pc
   - `maestro --host <local-pc-ipv4> test -c <path-to-project>/e2e/sign-in.yaml`
 
+## Debug Output
+By deafult when a test fails, screenshots and logs are saved to the `./maestro` directory. To change this, use the `--output` flag.
+
+`maestro test --debug-output /path/to/debug/logs`
+
 ## Running Maestro Studio
 
 ### Linux/Mac
