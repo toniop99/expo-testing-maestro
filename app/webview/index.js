@@ -7,7 +7,7 @@ export default function Page() {
     return (
         <View style={styles.container}>
             <WebView
-                source={{ uri: 'https://expo.dev' }}
+                source={{ uri: 'https://google.es' }}
             />
             <Link href="/" asChild>
                 <Pressable style={{backgroundColor: 'red'}}>
